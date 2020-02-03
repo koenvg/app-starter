@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitButton Should render a form with the submitButton 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+      tabindex="0"
+      type="submit"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Submit
+      </span>
+    </button>
+  </form>
+</div>
+`;
+
+exports[`SubmitButton should submit the form when you click the button and show a loading indicator 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="submit"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <div
+          class="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          role="progressbar"
+          style="width: 25px; height: 25px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+      </span>
+    </button>
+  </form>
+</div>
+`;

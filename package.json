@@ -1,0 +1,35 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "Basic skeleton",
+  "main": "index.js",
+  "author": "Koen Van Geert",
+  "license": "Commercial",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:web": "cd packages/web && yarn start",
+    "start:api": "cd packages/api-server && yarn start",
+    "start:generate": "yarn generate --watch",
+    "start": "concurrently \"yarn:start:*\" --color",
+    "generate": "graphql-codegen --config codegen.yml",
+    "lint": "eslint ./packages/*/src/** --ext .tsx --ext .ts",
+    "build:api": "cd packages/api-server && yarn build",
+    "build:web": "cd packages/web && yarn build",
+    "build": "yarn generate && yarn lint && yarn build:api && yarn build:web",
+    "test": "jest --colors"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.12.1",
+    "@graphql-codegen/fragment-matcher": "^1.12.1",
+    "@graphql-codegen/introspection": "1.12.1",
+    "@graphql-codegen/typescript": "1.12.1",
+    "@graphql-codegen/typescript-operations": "1.12.1",
+    "@graphql-codegen/typescript-react-apollo": "1.12.1",
+    "@graphql-codegen/typescript-resolvers": "^1.12.1",
+    "concurrently": "^5.1.0",
+    "graphql": "^14.6.0"
+  }
+}

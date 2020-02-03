@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput should render the input container which is rendered by formik 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+        data-shrink="false"
+      >
+        Name
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          name="name"
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-61 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-63"
+          >
+            <span>
+              Name
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`FormInput should show errors when the field contains errors 1`] = `
+<div>
+  <form
+    action="#"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-error Mui-error"
+        data-shrink="false"
+      >
+        Name
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="true"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          name="name"
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-253 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-255"
+          >
+            <span>
+              Name
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <p
+        class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error"
+      >
+        Required
+      </p>
+    </div>
+  </form>
+</div>
+`;

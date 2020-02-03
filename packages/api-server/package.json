@@ -1,0 +1,19 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && cp src/api.graphql lib/api.graphql",
+    "start": "tsnd --respawn src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "graphql": "^14.6.0",
+    "graphql-import": "^0.7.1"
+  },
+  "devDependencies": {
+    "typescript-config": "^1.0.0",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}

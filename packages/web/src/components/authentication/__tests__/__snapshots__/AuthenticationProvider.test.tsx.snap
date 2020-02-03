@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthenticationProvider Should log the user in and navigate to the page in the state 1`] = `
+<div>
+  <div>
+    User: 
+  </div>
+  <div>
+    isAuthenticated: 
+    f
+    a
+    l
+    s
+    e
+  </div>
+  <button />
+</div>
+`;
+
+exports[`AuthenticationProvider Should log the user in and navigate to the page in the state 2`] = `
+<div>
+  <div>
+    User: 
+    {"username":"username"}
+  </div>
+  <div>
+    isAuthenticated: 
+    t
+    r
+    u
+    e
+  </div>
+  <button />
+</div>
+`;

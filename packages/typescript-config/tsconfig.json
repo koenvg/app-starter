@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "composite": true,
+    "outDir": "lib",
+    "jsx": "react"
+  },
+}
