@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrivateRoute should redirect to the login page when the user is not authenticated 1`] = `
+<div>
+  <div>
+    Login Route
+  </div>
+</div>
+`;
+
+exports[`PrivateRoute should render the component for the route when the user is authenticated 1`] = `
+<div>
+  <div>
+    Private Route
+  </div>
+</div>
+`;

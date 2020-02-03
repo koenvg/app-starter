@@ -1,0 +1,25 @@
+{
+  "short_name": "Web Skeleton",
+  "name": "Web Skeleton",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "logo180.png",
+      "type": "image/png",
+      "sizes": "180 × 180"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "306 × 339"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

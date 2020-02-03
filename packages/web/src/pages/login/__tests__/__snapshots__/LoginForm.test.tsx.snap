@@ -1,0 +1,512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm should render the login form 1`] = `
+.c0 {
+  width: 100%;
+  margin-top: 8;
+}
+
+.c1.c1 {
+  margin: 24px 0px 16px;
+}
+
+<div>
+  <form
+    class="c0"
+    novalidate=""
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-focused Mui-focused Mui-required Mui-required"
+        data-shrink="true"
+        for="email"
+        id="email-label"
+      >
+        Email Address
+        <span
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth Mui-focused Mui-focused MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="false"
+          autocomplete="email"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          id="email"
+          name="email"
+          required=""
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-61 PrivateNotchedOutline-legendNotched-62"
+          >
+            <span>
+              Email Address
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+        data-shrink="false"
+        for="password"
+        id="password-label"
+      >
+        Password
+        <span
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="false"
+          autocomplete="current-password"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          id="password"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-59 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-61"
+          >
+            <span>
+              Password
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedPrimary MuiButton-fullWidth"
+      tabindex="0"
+      type="submit"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Sign In
+        </p>
+      </span>
+    </button>
+  </form>
+</div>
+`;
+
+exports[`LoginForm should show a generic error when one occurs during signing in 1`] = `
+.c0 {
+  width: 100%;
+  margin-top: 8;
+}
+
+.c1.c1 {
+  margin: 24px 0px 16px;
+}
+
+<form
+  class="c0"
+  novalidate=""
+>
+  <div
+    class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+      data-shrink="true"
+      for="email"
+      id="email-label"
+    >
+      Email Address
+      <span
+        class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+    >
+      <input
+        aria-invalid="false"
+        autocomplete="email"
+        class="MuiInputBase-input MuiOutlinedInput-input"
+        id="email"
+        name="email"
+        required=""
+        type="text"
+        value="test@test.com"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-531 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="PrivateNotchedOutline-legendLabelled-533 PrivateNotchedOutline-legendNotched-534"
+        >
+          <span>
+            Email Address
+             *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <div
+    class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+      data-shrink="true"
+      for="password"
+      id="password-label"
+    >
+      Password
+      <span
+        class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+    >
+      <input
+        aria-invalid="false"
+        autocomplete="current-password"
+        class="MuiInputBase-input MuiOutlinedInput-input"
+        id="password"
+        name="password"
+        required=""
+        type="password"
+        value="somePassword"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-531 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="PrivateNotchedOutline-legendLabelled-533 PrivateNotchedOutline-legendNotched-534"
+        >
+          <span>
+            Password
+             *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <p
+    class="MuiTypography-root MuiTypography-body2 MuiTypography-colorError"
+  >
+    Your username and/or password do not match
+  </p>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedPrimary MuiButton-fullWidth"
+    tabindex="0"
+    type="submit"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Sign In
+      </p>
+    </span>
+  </button>
+</form>
+`;
+
+exports[`LoginForm should show an error when the user does not fill in username or password 1`] = `
+.c0 {
+  width: 100%;
+  margin-top: 8;
+}
+
+.c1.c1 {
+  margin: 24px 0px 16px;
+}
+
+<div>
+  <form
+    class="c0"
+    novalidate=""
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-error Mui-error Mui-required Mui-required"
+        data-shrink="false"
+        for="email"
+        id="email-label"
+      >
+        Email Address
+        <span
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk Mui-error Mui-error"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-describedby="email-helper-text"
+          aria-invalid="true"
+          autocomplete="email"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          id="email"
+          name="email"
+          required=""
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-185"
+          >
+            <span>
+              Email Address
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <p
+        class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error Mui-required"
+        id="email-helper-text"
+      >
+        Please enter your username
+      </p>
+    </div>
+    <div
+      class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-error Mui-error Mui-required Mui-required"
+        data-shrink="false"
+        for="password"
+        id="password-label"
+      >
+        Password
+        <span
+          class="MuiFormLabel-asterisk MuiInputLabel-asterisk Mui-error Mui-error"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl"
+      >
+        <input
+          aria-describedby="password-helper-text"
+          aria-invalid="true"
+          autocomplete="current-password"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          id="password"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-185"
+          >
+            <span>
+              Password
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      <p
+        class="MuiFormHelperText-root MuiFormHelperText-contained Mui-error Mui-required"
+        id="password-helper-text"
+      >
+        Please enter your password
+      </p>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedPrimary MuiButton-fullWidth"
+      tabindex="0"
+      type="submit"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Sign In
+        </p>
+      </span>
+    </button>
+  </form>
+</div>
+`;
+
+exports[`LoginForm should sign the user in the they enter username and password 1`] = `
+.c0 {
+  width: 100%;
+  margin-top: 8;
+}
+
+.c1.c1 {
+  margin: 24px 0px 16px;
+}
+
+<form
+  class="c0"
+  novalidate=""
+>
+  <div
+    class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+      data-shrink="true"
+      for="email"
+      id="email-label"
+    >
+      Email Address
+      <span
+        class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+    >
+      <input
+        aria-invalid="false"
+        autocomplete="email"
+        class="MuiInputBase-input MuiOutlinedInput-input"
+        id="email"
+        name="email"
+        required=""
+        type="text"
+        value="test@test.com"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-357 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="PrivateNotchedOutline-legendLabelled-359 PrivateNotchedOutline-legendNotched-360"
+        >
+          <span>
+            Email Address
+             *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <div
+    class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+      data-shrink="true"
+      for="password"
+      id="password-label"
+    >
+      Password
+      <span
+        class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+      >
+         
+        *
+      </span>
+    </label>
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+    >
+      <input
+        aria-invalid="false"
+        autocomplete="current-password"
+        class="MuiInputBase-input MuiOutlinedInput-input"
+        id="password"
+        name="password"
+        required=""
+        type="password"
+        value="somePassword"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-357 MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="PrivateNotchedOutline-legendLabelled-359 PrivateNotchedOutline-legendNotched-360"
+        >
+          <span>
+            Password
+             *
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedPrimary MuiButton-fullWidth"
+    tabindex="0"
+    type="submit"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Sign In
+      </p>
+    </span>
+  </button>
+</form>
+`;

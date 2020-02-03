@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should open the collapsed list by default if a path underneath is active 1`] = `
+.c0.c0.c0 {
+  width: calc(100% - 16px);
+  border-radius: 0px 20px 20px 0px;
+  height: 40px;
+}
+
+.c2.c2.c2 {
+  width: calc(100% - 16px);
+  border-radius: 0px 20px 20px 0px;
+  height: 40px;
+}
+
+.c2.c2.c2:hover,
+.c2.c2.c2 {
+  background-color: #607d8b;
+  color: #fff;
+}
+
+.c2.c2.c2:hover .MuiListItemIcon-root,
+.c2.c2.c2 .MuiListItemIcon-root {
+  color: #fff;
+}
+
+.c1.c1 {
+  width: calc(100% - 16px);
+  border-radius: 0px 20px 20px 0px;
+  height: 40px;
+}
+
+<div>
+  <ul
+    class="MuiList-root MuiList-dense MuiList-padding"
+  >
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root c0 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      color="primary"
+      href="/"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          Application
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root c1 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          Documentation
+        </span>
+      </div>
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      class="MuiCollapse-container MuiCollapse-entered"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            class="MuiList-root MuiList-dense"
+          >
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root c2 MuiListItem-dense MuiListItem-gutters MuiListItem-button Mui-selected"
+              color="primary"
+              href="/button"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-inset"
+              >
+                <span
+                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+                >
+                  Button
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiListItem-root c0 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+              color="primary"
+              href="/form"
+              role="button"
+              tabindex="0"
+            >
+              <div
+                class="MuiListItemText-root MuiListItemText-dense MuiListItemText-inset"
+              >
+                <span
+                  class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+                >
+                  Form
+                </span>
+              </div>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <li
+        class="MuiListSubheader-root MuiListSubheader-sticky MuiListSubheader-gutters"
+      >
+        Some Group
+      </li>
+      <div
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiListItem-root c1 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemIcon-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 5v6h5L7 7l4 1V3H5c-1.1 0-2 .9-2 2zm5 8H3v6c0 1.1.9 2 2 2h6v-5l-4 1 1-4zm9 4l-4-1v5h6c1.1 0 2-.9 2-2v-6h-5l1 4zm2-14h-6v5l4-1-1 4h5V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiListItemText-root MuiListItemText-dense"
+        >
+          <span
+            class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+          >
+            Pages
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`Navigation should render the navigation list 1`] = `
+.c0.c0.c0 {
+  width: calc(100% - 16px);
+  border-radius: 0px 20px 20px 0px;
+  height: 40px;
+}
+
+.c0.c0.c0:hover,
+.c0.c0.c0 {
+  background-color: #607d8b;
+  color: #fff;
+}
+
+.c0.c0.c0:hover .MuiListItemIcon-root,
+.c0.c0.c0 .MuiListItemIcon-root {
+  color: #fff;
+}
+
+.c1.c1 {
+  width: calc(100% - 16px);
+  border-radius: 0px 20px 20px 0px;
+  height: 40px;
+}
+
+<div>
+  <ul
+    class="MuiList-root MuiList-dense MuiList-padding"
+  >
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root c0 MuiListItem-dense MuiListItem-gutters MuiListItem-button Mui-selected"
+      color="primary"
+      href="/"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          Application
+        </span>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root c1 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemIcon-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+      </div>
+      <div
+        class="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          Documentation
+        </span>
+      </div>
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div>
+      <li
+        class="MuiListSubheader-root MuiListSubheader-sticky MuiListSubheader-gutters"
+      >
+        Some Group
+      </li>
+      <div
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiListItem-root c1 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemIcon-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 5v6h5L7 7l4 1V3H5c-1.1 0-2 .9-2 2zm5 8H3v6c0 1.1.9 2 2 2h6v-5l-4 1 1-4zm9 4l-4-1v5h6c1.1 0 2-.9 2-2v-6h-5l1 4zm2-14h-6v5l4-1-1 4h5V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiListItemText-root MuiListItemText-dense"
+        >
+          <span
+            class="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+          >
+            Pages
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </svg>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+    </div>
+  </ul>
+</div>
+`;

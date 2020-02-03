@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTable should render a data table without pagination by default 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded"
+    style="position: relative;"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MTableToolbar-root-33 MuiToolbar-gutters"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root"
+      >
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart MuiInputBase-adornedEnd"
+        >
+          <div
+            class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+          >
+            <span
+              aria-hidden="true"
+              class="material-icons MuiIcon-root MuiIcon-fontSizeSmall"
+              title="Search"
+            >
+              search
+            </span>
+          </div>
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd"
+            placeholder="Search"
+            type="text"
+            value=""
+          />
+          <div
+            class="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <span
+                  aria-hidden="true"
+                  class="material-icons MuiIcon-root MuiIcon-fontSizeSmall"
+                >
+                  clear
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MTableToolbar-spacer-35"
+      />
+      <div
+        class="MTableToolbar-actions-36"
+      >
+        <div>
+          <div>
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Component-horizontalScrollContainer-120"
+      style="overflow-x: auto;"
+    >
+      <div>
+        <div
+          style="overflow-y: auto;"
+        >
+          <table
+            class="MuiTable-root"
+          >
+            <thead
+              class="MuiTableHead-root"
+            >
+              <tr
+                class="MuiTableRow-root MuiTableRow-head"
+              >
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MTableHeader-header-123 MuiTableCell-alignLeft"
+                  scope="col"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiTableSortLabel-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-roledescription="Draggable item. Press space bar to lift"
+                      data-react-beautiful-dnd-drag-handle="0"
+                      data-react-beautiful-dnd-draggable="0"
+                      draggable="false"
+                      tabindex="0"
+                    >
+                      ID
+                    </div>
+                    <span
+                      aria-hidden="true"
+                      class="material-icons MuiIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                    >
+                      arrow_downward
+                    </span>
+                  </span>
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MTableHeader-header-123 MuiTableCell-alignLeft"
+                  scope="col"
+                >
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root MuiTableSortLabel-root"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div
+                      aria-roledescription="Draggable item. Press space bar to lift"
+                      data-react-beautiful-dnd-drag-handle="0"
+                      data-react-beautiful-dnd-draggable="0"
+                      draggable="false"
+                      tabindex="0"
+                    >
+                      Label
+                    </div>
+                    <span
+                      aria-hidden="true"
+                      class="material-icons MuiIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                    >
+                      arrow_downward
+                    </span>
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="MuiTableBody-root"
+            >
+              <tr
+                class="MuiTableRow-root"
+                index="0"
+                level="0"
+                path="0"
+                style="transition: all ease 300ms;"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                  value="First"
+                >
+                  First
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                  value="First"
+                >
+                  First
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root"
+                index="1"
+                level="0"
+                path="1"
+                style="transition: all ease 300ms;"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                  value="Second"
+                >
+                  Second
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                  value="Second and some longer label"
+                >
+                  Second and some longer label
+                </td>
+              </tr>
+              <tr
+                class="MuiTableRow-root"
+                index="2"
+                level="0"
+                path="2"
+                style="transition: all ease 300ms;"
+              >
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                  value="Third"
+                >
+                  Third
+                </td>
+                <td
+                  class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+                  value="Third"
+                >
+                  Third
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
